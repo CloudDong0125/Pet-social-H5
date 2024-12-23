@@ -1,0 +1,111 @@
+{
+	// 如果您是通过uni_modules形式引入uView，可以忽略此配置
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/login/star",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": false
+				}
+			},
+			"navigationStyle": "custom"
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": false
+				}
+			},
+			"navigationStyle": "custom"
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": "false"
+				}
+			}
+		},
+		{
+			"path": "pages/find/find",
+			"style": {
+				
+				"navigationBarTitleText": "找家",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/day/day",
+			"style": {
+				"backgroundColor": "red",
+				"navigationBarTitleText": "日常",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/find/find-send",
+			"style": {
+				"backgroundColor": "red",
+				"navigationBarTitleText": "发布找家",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/day/day-send",
+			"style": {
+				"backgroundColor": "red",
+				"navigationBarTitleText": "发布日常",
+				"enablePullDownRefresh": true
+			}
+		}
+		
+		
+		
+		
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "宠物说",
+		"navigationBarBackgroundColor": "white",
+		"backgroundColor": "red"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#0b1d1e",
+		"borderStyle": "#f5f5f5",
+		"backgroundColor": "white",
+		"list": [{
+				"selectedIconPath": "static/tabbarImg/home_active.png",
+				"iconPath": "static/tabbarImg/home.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"selectedIconPath": "static/tabbarImg/friend_active.png",
+				"iconPath": "static/tabbarImg/friend.png",
+				"pagePath": "pages/day/day",
+				"text": "圈"
+			},
+			{
+				"selectedIconPath": "static/tabbarImg/space_active.png",
+				"iconPath": "static/tabbarImg/space.png",
+				"pagePath": "pages/find/find",
+				"text": "找家"
+			}
+			
+		]
+	}
+}
