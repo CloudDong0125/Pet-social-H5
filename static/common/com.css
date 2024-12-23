@@ -1,0 +1,70 @@
+.a_color_main {
+	color: #fb9d00;
+}
+
+.a_bgcolor_main {
+	background-color: #fb9d00;
+}
+
+.a_flex {
+	display: flex;
+}
+
+.a_align_items {
+	align-items: center;
+}
+
+.a_align_items_star {
+	align-items: start;
+}
+
+.a_jus_center {
+	justify-content: center;
+}
+
+.a_jus_between {
+	justify-content: space-between;
+}
+
+.a_txt_center {
+	text-align: center;
+}
+
+.a_img_obj_cover {
+	object-fit: cover;
+}
+
+.a_border_radius20 {
+	border-radius: 20rpx;
+}
+
+.a_flex_col {
+	display: flex;
+	flex-direction: column;
+}
+
+.a_flex_row {
+	display: flex;
+	flex-direction: row;
+}
+
+.a_img_cover {
+	width: 200px;
+	/* 或者其他具体的宽度值 */
+	height: 200px;
+	/* 或者其他具体的高度值 */
+	overflow: hidden;
+
+}
+
+/* 隐藏超出容器的部分 */
+.a_cover_image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.a_mar_bottom20 {
+	margin-bottom: 20rpx;
+}
+
